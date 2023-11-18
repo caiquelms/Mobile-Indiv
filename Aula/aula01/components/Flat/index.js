@@ -17,7 +17,9 @@ export default function Flat() {
 
   const item = ({ item }) => (
     <View style={styles.item}>
-      <Text>{item.nome}</Text>
+      <Text>
+        {item.nome} - {item.matricula}
+      </Text>
     </View>
   );
 

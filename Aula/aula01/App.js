@@ -25,6 +25,6 @@ export default function App() {
     //     <Text style={{ color: "#f2f2f2", textAlign: "center" }}>Eae</Text>
     //   </View>
     // </View>
-    <Section />
+    <Flat />
   );
 }
