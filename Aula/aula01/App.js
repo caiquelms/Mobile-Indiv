@@ -11,6 +11,7 @@ import FlatExercicio from "./components/FlatExercicio";
 import List from "./components/List";
 import Section from "./components/Section";
 import SectionTeste from "./components/SectionTeste";
+import Counter from "./components/Counter";
 
 export default function App() {
   return (
@@ -25,6 +26,6 @@ export default function App() {
     //     <Text style={{ color: "#f2f2f2", textAlign: "center" }}>Eae</Text>
     //   </View>
     // </View>
-    <Flat />
+    <Counter />
   );
 }
